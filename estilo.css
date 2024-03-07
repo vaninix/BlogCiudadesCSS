@@ -1,0 +1,49 @@
+
+	div.contendor{
+	width: 100%;
+	border: 1px solid gray; }
+
+     header, footer {
+	padding: 1 em;
+	color: midnightblue;
+	background-color: mistyrose;
+	clear: left;
+	text-aling: center; }
+
+     nav {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 1em;
+	}
+
+    nav ul {
+	list-style-type: none;
+	padding: 0;
+        }
+
+    nav ul a {
+	text-decoration: nome;
+	}
+
+        img {
+            max-width: 100%; /* Cambiado a un ancho máximo del 100% para que la imagen se ajuste al contenedor */
+            height: 200px; /* Altura automática para mantener la proporción de la imagen */
+            display: block; /* Para asegurar que el margen automático funcione correctamente */
+            margin: 0 auto; /* Margen izquierdo y derecho automáticos */
+        }
+
+        p{
+            text-align: justify;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+        }
+    article {
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1 em;
+	overflow: hidden;
+	}
+     
+     
